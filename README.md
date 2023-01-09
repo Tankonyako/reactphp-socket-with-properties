@@ -1,7 +1,6 @@
 # Socket
 
 [![CI status](https://github.com/reactphp/socket/workflows/CI/badge.svg)](https://github.com/reactphp/socket/actions)
-[![installs on Packagist](https://img.shields.io/packagist/dt/react/socket?color=blue&label=installs%20on%20Packagist)](https://packagist.org/packages/react/socket)
 
 Async, streaming plaintext TCP/IP and secure TLS socket server and client
 connections for [ReactPHP](https://reactphp.org/).
