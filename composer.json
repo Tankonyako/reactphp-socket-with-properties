@@ -1,5 +1,5 @@
 {
-    "name": "react/socket",
+    "name": "Tankonyako/reactphp-socket-with-properties",
     "description": "Async, streaming plaintext TCP/IP and secure TLS socket server and client connections for ReactPHP",
     "keywords": ["async", "socket", "stream", "connection", "ReactPHP"],
     "license": "MIT",
