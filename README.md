@@ -2,7 +2,7 @@
 
 [![CI status](https://github.com/reactphp/socket/workflows/CI/badge.svg)](https://github.com/reactphp/socket/actions)
 
-Install:
+### Install:
 1. Add to composer.json:
 ```
     "replace": {
@@ -12,6 +12,13 @@ Install:
 2. Install: 
 ```
 $ composer require tankonyako/reactphp-socket-with-properties:1.x-dev
+```
+### Usage proprties:
+Connection now have proprties field for custom information.
+```
+$connection->once('data', function ($chunk) use ($connection, $that) {
+    var_dump($connection->properties);
+});
 ```
 
 Async, streaming plaintext TCP/IP and secure TLS socket server and client
