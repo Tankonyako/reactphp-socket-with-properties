@@ -2,6 +2,18 @@
 
 [![CI status](https://github.com/reactphp/socket/workflows/CI/badge.svg)](https://github.com/reactphp/socket/actions)
 
+Install:
+1. Add to composer.json:
+```
+    "replace": {
+        "react/socket": "*"
+    },
+```
+2. Install: 
+```
+$ composer require tankonyako/reactphp-socket-with-properties:1.x-dev
+```
+
 Async, streaming plaintext TCP/IP and secure TLS socket server and client
 connections for [ReactPHP](https://reactphp.org/).
 
