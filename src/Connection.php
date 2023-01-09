@@ -35,6 +35,12 @@ class Connection extends EventEmitter implements ConnectionInterface
      * @internal
      */
     public $encryptionEnabled = false;
+    
+    /**
+     * Proprties for custom data. For transfer beetwen app.
+     * Example: Authed user, some other linked instances
+     */
+    public $properties = [];
 
     /** @internal */
     public $stream;
